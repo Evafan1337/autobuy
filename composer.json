@@ -1,0 +1,12 @@
+{
+    "name": "user1/autobuy.local",
+    "require": {
+        "swiftmailer/swiftmailer": "^6.2"
+    },
+    "authors": [
+        {
+            "name": "evafan1337",
+            "email": "as007ershov@gmail.com"
+        }
+    ]
+}

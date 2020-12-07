@@ -1,0 +1,273 @@
+
+@media screen and (max-width: 1145px){
+	.slider-container{
+		max-width: 740px;
+	}
+
+	.right-click{
+		right:-15%;
+	}
+
+	.left-click{
+		left:-15%;
+	}
+}
+
+@media screen and (max-width: 850px){
+
+	.applicant-form{
+		flex-direction: column;
+	}
+
+	.applicant-form__text{
+		align-self: center;
+	}
+
+	.applicant-form__form{
+		align-self: center;
+	}
+
+	.main-preview-wrapper--carbuy{
+		height: 825px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.main-preview-wrapper--carbuy{
+		height: 800px;
+	}
+
+	.slider-elem{
+		padding-top: 100px;
+	}
+	
+	.slider-elem__search-img{
+	/*content: '';
+	display: block;
+	margin:0 auto;
+*/
+    /*position: absolute;*/
+    width: 150px;
+    height: 150px;
+    /*top: 100px;
+    left: 350px;*/
+    /*background: url(../images/search.svg);
+    background-size: cover;*/
+}
+}
+@media screen and (max-width: 965px){
+
+	.slider-container{
+		max-width: 75%;
+	}
+
+	.slider-text{
+	    font-size: 18px;
+    	line-height: 18px;
+    	height: 25px;
+	}
+
+	.slider-elem:before{
+		content: '';
+    	width: 250px;
+    	height: 250px;
+    	top: 100px;
+        left: 170px;
+	}
+
+	.controls__elem{
+		left: 170px;
+	}
+
+	.applicant-form:before{
+		background: url(../images/svgCarDocumentMobile.svg);
+    	background-size: cover;
+    	left: 180px;
+    	opacity: 0.35;
+    	top: 190px;
+	}
+}
+
+@media screen and (max-width: 765px){
+	.nav-static-inner{
+		display: block;
+		padding-left: 0px;
+	}
+
+	.nav-static-other-info{
+		padding-right: 0px;
+		justify-content: space-around;
+		padding-bottom: 10px;
+	}
+
+	.nav-static-other-info--footer-modify{
+		flex-direction: column;
+		position: relative;
+	}
+
+	.nav-static-other-info--footer-modify:before{
+		content: "";
+    	position: absolute;
+   		width: 280px;
+    	height: 280px;
+    	/* background-color: red; */
+    	background: url(../images/svgPowerBlack.svg);
+    	background-size: cover;
+    	left: 230px;
+    	top: 20px;
+    	transform: scale(-1, 1);
+    	opacity: 0.15;
+	}
+
+	.nav-static-other-info__location--footer-modify{
+		margin-left:15px;
+	}
+
+	.nav-static-preview{
+		justify-content: space-around;
+	}
+
+	.nav-static-other-info__img{
+		height: 75px;
+		width: 75px;
+	}
+
+	.left-click, .right-click{
+		width: 50px;
+		height: 50px;
+    	top: 320px;
+    }
+
+    .right-click{
+		right:-1%;
+	}
+
+	.left-click{
+		left:-1%;
+	}
+	
+	.controls__elem{
+		width: 20px;
+		height: 20px;
+	}
+
+	.main-preview-wrapper--carbuy{
+		height: 700px;
+	}
+
+	.applicant-form:before{
+		left: 20px;
+    /*opacity: 0.35;*/
+    	top: 200px;
+	}
+}
+
+
+@media screen and (max-width: 585px){
+	.applicant-form:before{
+		width: 350px;
+		height: 350px;
+	}
+
+	.nav-static-other-info--footer-modify:before {
+		content: "";
+    	position: absolute;
+    	width: 280px;
+    	height: 280px;
+    	/* background-color: red; */
+    	background: url(../images/svgPowerBlack.svg);
+    	background-size: cover;
+    	left: 40px;
+    	top: 80px;
+    	transform: scale(-1, 1);
+    	opacity: 0.15;
+	}
+}
+
+@media screen and (max-width: 400px){
+
+	.applicant-form__form{
+		width:300px;
+	}
+
+	.image-content{
+		width: 275px;
+	}
+
+	#controls{
+		width:250px;
+	    /*margin-left: 0;
+    	margin-right: 0;*/
+	}
+
+	#overflow{
+		width: 275px;
+		margin: 0 auto;
+	}
+
+	.slider-elem:before{
+		content: '';
+    	width: 150px;
+    	height: 150px;
+    	top: 100px;
+    	left: 70px;
+	}
+
+	.slider-text{
+		height: 45px;
+	}
+
+	.slider-elem{
+		/*padding-top: 300px;*/
+	}
+
+	.labels-inner__elem{
+		width:20px;
+		height: 20px;
+	}
+
+	.faq-list__activation{
+		width:30px;
+		height: 30px;
+		top:11px;
+		left:85%;
+	}
+
+	/*.main-preview-wrapper--carbuy{
+		height: 700px;
+	}*/
+	
+	.left-click,.right-click{
+		top:350px;
+		height: 35px;
+		width: 35px;
+	}
+	/*.left-click{
+	    left: -18%;
+	}
+	
+	.right-click{
+		right: -18%;
+	}*/
+
+	.applicant-form:before{
+		left: 0px;
+    	height: 260px;
+    	width: 260px;
+    	top: 470px;
+	}
+
+	.nav-static-other-info--footer-modify:before {
+		content: "";
+    	position: absolute;
+    	width: 250px;
+    	height: 250px;
+    	/* background-color: red; */
+    	background: url(../images/svgPowerBlack.svg);
+    	background-size: cover;
+    	left: 40px;
+    	top: 80px;
+    	transform: scale(-1, 1);
+    	opacity: 0.15;
+	}
+}
